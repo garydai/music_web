@@ -1,0 +1,73 @@
+/*
+ * head
+ */
+.topbar
+{
+	height: 50px;
+	background: #FF5809;	
+}
+
+.logout,.login
+{
+	 position:absolute;left:95% ;margin:20px 0 0 0;
+}
+/*
+ * footer
+ */
+.footer
+{
+	background: #FF5809;
+	height:100px;
+}
+
+.contact
+{
+	position:absolute;left:50%;margin:50px 0 0 -100px;
+}
+/*
+ * content
+ */
+.list
+{
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.list >li
+{
+	padding:6px;
+}
+.from
+{
+	font-size: 8pt;
+	color:#828282;
+}
+
+.song
+{
+	padding:20px;
+}
+
+.singer
+{
+
+	padding-left: 42px;
+	font-size: 3px;
+	color:#828282;
+}
+
+.arrow
+{
+	background: url(/images/arrow.png) no-repeat;
+	top: -12px;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+
+.score
+{
+	color:	#828282;
+}
+
