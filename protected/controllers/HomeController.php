@@ -66,10 +66,25 @@ class HomeController extends Controller
 		$this->g_guest = Yii::app()->admin->isGuest;
 
 		$criteria = new CDbCriteria;
+		$criteria->condition = 'source ="qq"';
 		$criteria->order = 'date desc';
 		
-		$music = Music::model()->findAll($criteria);
-                $this->render('index', array('music'=>$music));
+		$qq = Music::model()->findAll($criteria);
+
+                $criteria = new CDbCriteria;
+                $criteria->condition = 'source ="xiami"';
+                $criteria->order = 'date desc';
+
+                $xiami = Music::model()->findAll($criteria);
+
+
+                $criteria = new CDbCriteria;
+                $criteria->condition = 'source ="163"';
+                $criteria->order = 'date desc';
+
+                $net = Music::model()->findAll($criteria);
+
+                $this->render('index', array('qq'=>$qq, 'xiami'=>$xiami, 'net'=>$net));
 
 
 

@@ -9,7 +9,11 @@
 
 .logout,.login
 {
-	 position:absolute;left:95% ;margin:20px 0 0 0;
+	 position:absolute;
+	right:5px;
+	top:30px;
+	color:#34495E; 
+	font-size:15px;
 }
 /*
  * footer
@@ -18,22 +22,50 @@
 {
 	background: #FF5809;
 	height:100px;
+	clear:left;
+
 }
 
 .contact
 {
-	position:absolute;left:50%;margin:50px 0 0 -100px;
+
+        width: 250px;
+        margin: 0 auto;
+        padding: 13px 0;
+        color:#34495E;
+
 }
+.source
+{
+	width: 200px;
+	margin: 0 auto;
+	padding: 13px 0;
+	font-size:13px;
+	color:#34495E;
+}
+.source >a
+{
+        color:#34495E;
+}
+
 /*
  * content
  */
-.list
+
+
+.group
 {
-	max-width: 750px;
-	margin-left: auto;
-	margin-right: auto;
+        max-width: 1200px;
+	margin: 0 auto;
 }
 
+
+
+.list
+{
+	width:400px;
+	float:left;
+}
 .list >li
 {
 	padding:6px;

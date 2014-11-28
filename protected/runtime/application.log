@@ -8121,3 +8121,62 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2014/11/28 15:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/28 15:45:52 [error] [php] Attempt to assign property of non-object (/home/admin/nginx/html/music/demos/music_web/protected/controllers/HomeController.php:70)
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CController.php(286): HomeController->runAction()
+#1 /home/admin/nginx/html/music/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#2 /home/admin/nginx/html/music/framework/web/CWebApplication.php(282): HomeController->run()
+#3 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/admin/nginx/html/music/demos/music_web/index.php(11): CWebApplication->run()
+REQUEST_URI=/
+2014/11/28 15:47:39 [error] [php] Attempt to assign property of non-object (/home/admin/nginx/html/music/demos/music_web/protected/controllers/HomeController.php:70)
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CController.php(286): HomeController->runAction()
+#1 /home/admin/nginx/html/music/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#2 /home/admin/nginx/html/music/framework/web/CWebApplication.php(282): HomeController->run()
+#3 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/admin/nginx/html/music/demos/music_web/index.php(11): CWebApplication->run()
+REQUEST_URI=/
+2014/11/28 15:48:52 [error] [php] Attempt to assign property of non-object (/home/admin/nginx/html/music/demos/music_web/protected/controllers/HomeController.php:70)
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CController.php(286): HomeController->runAction()
+#1 /home/admin/nginx/html/music/framework/web/CController.php(265): HomeController->runActionWithFilters()
+#2 /home/admin/nginx/html/music/framework/web/CWebApplication.php(282): HomeController->run()
+#3 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/admin/nginx/html/music/demos/music_web/index.php(11): CWebApplication->run()
+REQUEST_URI=/
+2014/11/28 15:57:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/28 17:38:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/28 17:47:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

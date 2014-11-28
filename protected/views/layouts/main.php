@@ -34,6 +34,13 @@
 
 </div>
 	<footer class="footer">
+		<div class="source">
+
+                	<a href="http://y.qq.com/#type=index" target="_blank">QQ音乐</a>
+			<a href="http://www.xiami.com/" target="_blank">虾米音乐</a>
+        	        <a href="http://music.163.com/#" target="_blank">网易音乐</a>
+
+		</div>
 
 		<div class="contact">
 			contact: techang2009@126.com

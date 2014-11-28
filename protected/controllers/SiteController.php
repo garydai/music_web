@@ -3,6 +3,7 @@
 class SiteController extends Controller
 {
 	public $layout='column1';
+	public $g_guest=null;
 
 	/**
 	 * Declares class-based actions.
@@ -28,6 +29,7 @@ class SiteController extends Controller
 	 */
 	public function actionError()
 	{
+		
 	    if($error=Yii::app()->errorHandler->error)
 	    {
 	    	if(Yii::app()->request->isAjaxRequest)
