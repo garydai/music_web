@@ -1,6 +1,5 @@
 
 
-
 <div class ='group'>
 
 <ul class="list"style="list-style-type:none">
@@ -42,4 +41,52 @@
 </ul>
 
 
+
+<div id="chat">
+	<div id="menu">
+		<p class="welcome">just talk <b></b></p>
+		<div style="clear:both"></div>
+	</div>
+
+	<div id="chatbox"></div>
+	<div id="message">
+		<input name="usermsg" type="text" id="usermsg" size="63" />
+		<input name="submitmsg" type="button"  id="submitmsg" value="Send" />
+	</div>	
+	
 </div>
+
+</div>
+
+<script type="text/javascript">
+	$("#submitmsg").click(function(){
+	
+		var clientmsg = $("#usermsg").val();
+		$.ajax({
+        	        type: "post",
+	                url: "/home/submit",
+			data:{'msg':clientmsg},
+        	        success: function(html) {
+			$("#chatbox").html(html);
+        	        }
+	            });
+
+
+
+
+	});
+
+
+	function loadMsg(){		
+		$.ajax({
+			url: "/home/loadMsg",
+			success: function(html){		
+				$("#chatbox").html(html); //Insert chat log into the #chatbox div	
+				}				
+		});
+	}
+
+	setInterval(loadMsg, 1000);
+
+
+</script>

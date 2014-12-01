@@ -63,23 +63,29 @@ class HomeController extends Controller
         public function actionIndex()
         {
 
+		$date = date('Y-m-d');
+		$date1 = $date.' 23:59:59';
 		$this->g_guest = Yii::app()->admin->isGuest;
 
 		$criteria = new CDbCriteria;
-		$criteria->condition = 'source ="qq"';
+		$criteria->condition = 'source ="qq" and date >= "'.$date.'" and date <= "'.$date1.'"';
 		$criteria->order = 'date desc';
 		
 		$qq = Music::model()->findAll($criteria);
 
                 $criteria = new CDbCriteria;
-                $criteria->condition = 'source ="xiami"';
+                $criteria->condition = 'source ="xiami" and date >= "'.$date.'" and date <= "'.$date1.'"';
+
+
                 $criteria->order = 'date desc';
 
                 $xiami = Music::model()->findAll($criteria);
 
 
                 $criteria = new CDbCriteria;
-                $criteria->condition = 'source ="163"';
+                $criteria->condition = 'source ="163" and date >= "'.$date.'" and date <= "'.$date1.'"';
+
+
                 $criteria->order = 'date desc';
 
                 $net = Music::model()->findAll($criteria);
@@ -109,5 +115,63 @@ class HomeController extends Controller
 			$this->redirect(Yii::app()->request->urlReferrer);
 		}
 	}
+	
+	public function actionSubmit()
+	{
+		$msg = '';
+		if(isset($_POST['msg']))
+		{
+			$msg=$_POST['msg'];
+		}
+
+
+		
+		if($msg != '')
+		{
+
+			$m = new Chat;
+			$m->ip = Yii::app()->request->userHostAddress;
+			$m->user = Yii::app()->request->userHostAddress;
+			$m->date =  $date = date('Y-m-d H:i:s');
+			$m->content = $msg;
+			$m->save();
+			
+			$criteria = new CDbCriteria;
+			$criteria->order = "date asc";	
+			$chat = Chat::model()->findAll($criteria);
+			
+			$html = '';
+			foreach($chat as $item)	
+			{
+				$html.=$this->get_item($item->date, 'xxx', $item->content);
+			}
+		}
+		echo $html;
+	}
+
+	public function get_item($date, $name, $content)
+	{
+		return "<div class='item'><span class='item_date'>$date</span><span class='item_ip'> $name </span><span class='item_content'>$content</span></div>";
+
+	}	
+        public function actionLoadMsg()
+        {
+
+                $criteria = new CDbCriteria;
+                $criteria->order = "date asc";
+                $chat = Chat::model()->findAll($criteria);
+
+                $html = '';
+                foreach($chat as $item)
+                {
+			$html.=$this->get_item($item->date, 'xxx', $item->content);
+
+	        }
+                echo $html;
+        }
+
+
+
+
 
 }

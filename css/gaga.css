@@ -55,7 +55,7 @@
 
 .group
 {
-        max-width: 1200px;
+        max-width: 2000px;
 	margin: 0 auto;
 }
 
@@ -63,7 +63,7 @@
 
 .list
 {
-	width:400px;
+	width:350px;
 	float:left;
 }
 .list >li
@@ -102,4 +102,68 @@
 {
 	color:	#828282;
 }
+
+/*
+ * chat box
+ */
+
+
+#chatbox
+{
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:25px;
+	padding:10px;
+	background:#fff;
+	height:270px;
+	width:430px;
+	border:1px solid #ACD8F0;
+	overflow:auto; 
+}
+#usermsg
+ {
+	width:395px;
+	border:1px solid #ACD8F0; 
+}
+ 
+#submit
+{
+ width: 60px; 
+}
+
+
+#chat
+{
+	float:left;
+	margin:0 auto;
+	padding-bottom:25px;
+	background:#EBF4FB;
+	width:504px;
+	border:1px solid #ACD8F0; 
+}
+.item_date, .item_ip
+{
+        font-size: 3px;
+        color:#828282;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
