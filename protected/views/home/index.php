@@ -1,4 +1,5 @@
 
+<script type="text/javascript" src="/js/jquery.tabslideout.1.3.js"></script>
 
 <div class ='group'>
 
@@ -7,7 +8,7 @@
 
 	<li>
 		<a href="<?php echo '/home/vote/id/'.$qq[$i]->id.'/score/'.$qq[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $qq[$i]->vote?></span> </a>
-		<a href="<?php echo $qq[$i]->url?>"><span class="song"><?php echo $qq[$i]->song?></span><br><span class="singer"><?php echo $qq[$i]->singer?></span><span class="from">(<?php echo $qq[$i]->source?>)</a>
+		<a href="<?php echo $qq[$i]->url?>" target="_blank" ><span class="song"><?php echo $qq[$i]->song?></span><br><span class="singer"><?php echo $qq[$i]->singer?></span><span class="from">(<?php echo $qq[$i]->source?>)</a>
 
 	</li>
 
@@ -20,7 +21,7 @@
 
         <li>
                 <a href="<?php echo '/home/vote/id/'.$xiami[$i]->id.'/score/'.$xiami[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $xiami[$i]->vote?></span> </a>
-                <a href="<?php echo $xiami[$i]->url?>"><span class="song"><?php echo $xiami[$i]->song?></span><br><span class="singer"><?php echo $xiami[$i]->singer?></span><span class="from">(<?php echo $xiami[$i]->source?>)</a>
+                <a href="<?php echo $xiami[$i]->url?>"  target="_blank" ><span class="song"><?php echo $xiami[$i]->song?></span><br><span class="singer"><?php echo $xiami[$i]->singer?></span><span class="from">(<?php echo $xiami[$i]->source?>)</a>
 
         </li>
 
@@ -33,7 +34,7 @@
 
         <li>
                 <a href="<?php echo '/home/vote/id/'.$xiami[$i]->id.'/score/'.$net[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $net[$i]->vote?></span> </a>
-                <a href="<?php echo $net[$i]->url?>"><span class="song"><?php echo $net[$i]->song?></span><br><span class="singer"><?php echo $net[$i]->singer?></span><span class="from">(<?php echo $net[$i]->source?>)</a>
+                <a href="<?php echo $net[$i]->url?>"  target="_blank"  ><span class="song"><?php echo $net[$i]->song?></span><br><span class="singer"><?php echo $net[$i]->singer?></span><span class="from">(<?php echo $net[$i]->source?>)</a>
 
         </li>
 
@@ -41,20 +42,25 @@
 </ul>
 
 
-
-<div id="chat">
-	<div id="menu">
-		<p class="welcome">just talk <b></b></p>
-		<div style="clear:both"></div>
-	</div>
-
-	<div id="chatbox"></div>
-	<div id="message">
-		<input name="usermsg" type="text" id="usermsg" size="63" />
-		<input name="submitmsg" type="button"  id="submitmsg" value="Send" />
-	</div>	
-	
 </div>
+
+
+<div class="slide-out-div" style="height:552px; background-color: rgb(66, 139, 202); z-index:9999; " id="cryptsychat">
+	<a class="handle" href="#">&nbsp;</a>
+
+	<div id="chat">
+	        <div id="menu">
+        	        <p class="welcome">just talk <b></b></p>
+                	<div style="clear:both"></div>
+	        </div>
+
+	        <div id="chatbox"></div>
+        	<div id="message">
+                	<input name="usermsg" type="text" id="usermsg" size="63" />
+	                <input name="submitmsg" type="button"  id="submitmsg" value="Send" />
+        	</div>
+
+	</div>
 
 </div>
 
@@ -86,7 +92,29 @@
 		});
 	}
 
-	setInterval(loadMsg, 1000);
+
+$(function() {
+
+
+
+
+	$('.slide-out-div').tabSlideOut({
+		tabHandle: '.handle',					 // class of the element that will become your tab
+		pathToTabImage: '/images/chatlogo.png',   // path to the image for the tab //Optionally can be set using css
+		imageHeight: '89px',					 // height of tab image		   //Optionally can be set using css
+		imageWidth: '35px',					   // width of tab image			//Optionally can be set using css
+		tabLocation: 'right',					 // side of screen where tab lives, top, right, bottom, or left
+		speed: 300,							   // speed of animation
+		action: 'click',						  // options: 'click' or 'hover', action to trigger animation
+		topPos: '60px',						  // position from the top/ use if tabLocation is left or right
+		leftPos: '20px',						  // position from left/ use if tabLocation is bottom or top
+		fixedPosition: true					   // options: true makes it stick(fixed position) on scroll
+	});
+
+
+	
+});
+
 
 
 </script>

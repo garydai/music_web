@@ -8465,3 +8465,77 @@ Stack trace:
 #4 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
 #5 /home/admin/nginx/html/music/demos/music_web/index.php(11): CWebApplication->run()
 REQUEST_URI=/home/submit
+2014/12/01 16:53:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/chatlogo.gif".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('img/chatlogo.gi...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/img/chatlogo.gif
+HTTP_REFERER=http://121.199.53.139:8080/?usermsg=%3F
+---
+2014/12/02 09:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+HTTP_REFERER=http://121.199.53.139/
+---
+2014/12/02 10:10:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+---
+2014/12/02 10:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+---
+2014/12/02 10:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+---
+2014/12/02 10:10:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+---
+2014/12/02 10:51:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+---
+2014/12/02 11:26:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+---
+2014/12/02 11:43:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

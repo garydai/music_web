@@ -115,20 +115,23 @@
 	margin-bottom:25px;
 	padding:10px;
 	background:#fff;
-	height:270px;
+	height:370px;
 	width:430px;
 	border:1px solid #ACD8F0;
 	overflow:auto; 
 }
 #usermsg
- {
+{
+
+	margin-left: 35px;
+
 	width:395px;
 	border:1px solid #ACD8F0; 
 }
  
 #submit
 {
- width: 60px; 
+	 width: 60px; 
 }
 
 
@@ -143,11 +146,25 @@
 }
 .item_date, .item_ip
 {
-        font-size: 3px;
+        font-size: 5px;
         color:#828282;
 
 }
 
+.slide-out-div 
+{
+	padding: 0px;
+	padding-right: 5px;
+	width: 550px;
+	background: #428bca;
+	border: 1px solid #29216d;
+}
+
+.item
+{
+	padding: 2px; padding-top:5px; padding-bottom:5px; border-bottom:1px solid #cccccc;
+	
+}
 
 
 
