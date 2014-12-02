@@ -8539,3 +8539,11 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2014/12/02 14:01:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

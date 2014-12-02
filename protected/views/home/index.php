@@ -3,7 +3,7 @@
 
 <div class ='group'>
 
-<ul class="list"style="list-style-type:none">
+<ul class="list list1"style="list-style-type:none">
 <?php for($i = 0; $i < count($qq); $i ++) { ?>
 
 	<li>
@@ -16,7 +16,7 @@
 </ul>
 
 
-<ul class="list list_end"style="list-style-type:none">
+<ul class="list list_end list2"style="list-style-type:none">
 <?php for($i = 0; $i < count($xiami); $i ++) { ?>
 
         <li>
@@ -29,7 +29,7 @@
 </ul>
 
 
-<ul class="list list_end"style="list-style-type:none">
+<ul class="list list_end list3"style="list-style-type:none">
 <?php for($i = 0; $i < count($net); $i ++) { ?>
 
         <li>
@@ -83,11 +83,15 @@
 	});
 
 
-	function loadMsg(){		
+	function loadMsg(){	
+		var oldscrollHeight = $("#chatbox")[0].scrollHeight;	
+//		alert(oldscrollHeight);
 		$.ajax({
 			url: "/home/loadMsg",
-			success: function(html){		
-				$("#chatbox").html(html); //Insert chat log into the #chatbox div	
+			success: function(html)
+				{		
+				$("#chatbox").html(html); //Insert chat log into the #chatbox div
+				$("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;	
 				}				
 		});
 	}
