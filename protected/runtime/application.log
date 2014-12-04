@@ -9038,3 +9038,30 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/manager/html
 ---
+2014/12/04 13:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web-console".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('web-console')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/web-console/
+HTTP_REFERER=http://121.199.53.139/?json=get_like_image&device_id=3418314A-4C8B-4A4F-8542-135CEE6116FB
+---
+2014/12/04 13:21:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "jmx-console".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('jmx-console')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/jmx-console/
+HTTP_REFERER=http://121.199.53.139/?json=get_like_image&device_id=3418314A-4C8B-4A4F-8542-135CEE6116FB
+---
+2014/12/04 13:21:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+HTTP_REFERER=http://121.199.53.139/?json=get_like_image&device_id=3418314A-4C8B-4A4F-8542-135CEE6116FB
+---

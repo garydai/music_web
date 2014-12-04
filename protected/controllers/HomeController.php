@@ -228,7 +228,7 @@ class HomeController extends Controller
 
 	public function get_item($date, $name, $content)
 	{
-		return "<div class='item'><span class='item_date'>$date</span><span class='item_ip'> $name </span><span class='item_content'>$content</span></div>";
+		return "<div class='item'><span class='item_date'>$date</span><span class='item_ip'> $name </span><div class='item_content'>$content</div></div>";
 
 	}	
         public function actionLoadMsg()
