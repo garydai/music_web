@@ -5,6 +5,9 @@ class HomeController extends Controller
 	public $layout='column1';
 
 	public $g_guest;
+	
+	public $g_username;	
+	
 	/**
 	 * Declares class-based actions.
 	 */
@@ -66,7 +69,7 @@ class HomeController extends Controller
 		$date = date('Y-m-d');
 		$date1 = $date.' 23:59:59';
 		$this->g_guest = Yii::app()->admin->isGuest;
-
+		$this->g_username = Yii::app()->admin->name;
 		$criteria = new CDbCriteria;
 		$criteria->condition = 'source ="qq" and date >= "'.$date.'" and date <= "'.$date1.'"';
 		$criteria->order = 'date desc';
@@ -90,7 +93,15 @@ class HomeController extends Controller
 
                 $net = Music::model()->findAll($criteria);
 
-                $this->render('index', array('qq'=>$qq, 'xiami'=>$xiami, 'net'=>$net));
+
+                $criteria = new CDbCriteria;
+		$criteria->limit = 100;
+		$criteria->condition = "judge=1";
+		$criteria->order = 'date desc';
+		$r = Recommend::model()->findAll($criteria);	
+
+	
+                $this->render('index', array('qq'=>$qq, 'xiami'=>$xiami, 'net'=>$net, 'recommend'=>$r));
 
 
 
@@ -108,13 +119,79 @@ class HomeController extends Controller
 	        }
 		else
 		{
+
+                        $ip = Yii::app()->request->userHostAddress;
+                        $user = Yii::app()->admin->name;
+
 			$id = $_GET['id'];
-			$score = $_GET['score'];
-			$score += 1;
-			Music::model()->updateByPk($id, array('vote'=>$score));
+
+
+			$criteria = new CDbCriteria;
+			$criteria->condition = "(ip='$ip' or user='$user') and new =$id ";
+			$count = Record::model()->count($criteria);
+			if($count == 0)
+			{
+				
+			
+
+				$score = $_GET['score'];
+				$score += 1;
+				Music::model()->updateByPk($id, array('vote'=>$score));
+
+
+	                        $record = new Record;
+        	                $record->ip = $ip;
+                	        $record->user = $user;
+                        	$record->date =  date('Y-m-d H:i:s');
+	                        $record->new = $id;
+        	                $record->save();
+			}
+
+
 			$this->redirect(Yii::app()->request->urlReferrer);
 		}
 	}
+
+
+        public function actionVote_recommend()
+        {
+
+                echo Yii::app()->admin->isGuest;
+                if(Yii::app()->admin->isGuest){
+                           $this->redirect(Yii::app()->admin->loginUrl);
+                }
+                else
+                {
+                        $ip = Yii::app()->request->userHostAddress;
+                        $user = Yii::app()->admin->name;
+			
+                        $id = $_GET['id'];
+
+
+                        $criteria = new CDbCriteria;
+                        $criteria->condition = "(ip='$ip' or user='$user') and recommend =$id ";
+                        $count = Record::model()->count($criteria);
+                        if($count == 0)
+                        {
+
+
+
+	                        $score = $_GET['score'];
+        	                $score += 1;
+                	        Recommend::model()->updateByPk($id, array('vote'=>$score));
+
+				$record = new Record;
+				$record->ip = $ip;
+				$record->user = $user;
+				$record->date =  date('Y-m-d H:i:s');
+				$record->recommend = $id;
+				$record->save();
+			}
+                        $this->redirect(Yii::app()->request->urlReferrer);
+                }
+        }
+
+
 	
 	public function actionSubmit()
 	{
@@ -131,8 +208,8 @@ class HomeController extends Controller
 
 			$m = new Chat;
 			$m->ip = Yii::app()->request->userHostAddress;
-			$m->user = Yii::app()->request->userHostAddress;
-			$m->date =  $date = date('Y-m-d H:i:s');
+			$m->user = Yii::app()->admin->name;
+			$m->date =  date('Y-m-d H:i:s');
 			$m->content = $msg;
 			$m->save();
 			
@@ -168,6 +245,46 @@ class HomeController extends Controller
 
 	        }
                 echo $html;
+        }
+
+	public function actionRecommend()
+	{
+	
+                if(Yii::app()->admin->isGuest)
+                {
+                           $this->redirect(Yii::app()->admin->loginUrl);
+                }
+                else
+                {
+	
+			$this->render('recommend');	
+		}
+	}
+
+        public function actionSubmit_music()
+        {
+
+
+			$song = $_POST['song'];
+			$singer = $_POST['singer'];
+			$url = $_POST['url'];
+			if($song != '' && $singer != '' && $url != '')
+			{
+
+
+	                	$r = new Recommend;
+	                        $r->ip = Yii::app()->request->userHostAddress;
+        	                $r->user = Yii::app()->admin->name;
+                	        $r->date =  $date = date('Y-m-d H:i:s');
+
+	        	        $r->song = $song;
+		                $r->singer = $singer;
+        		        $r->url = $url;
+	                	$r->save();
+
+
+			}
+			$this->redirect("/");
         }
 
 

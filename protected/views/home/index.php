@@ -33,7 +33,7 @@
 <?php for($i = 0; $i < count($net); $i ++) { ?>
 
         <li>
-                <a href="<?php echo '/home/vote/id/'.$xiami[$i]->id.'/score/'.$net[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $net[$i]->vote?></span> </a>
+                <a href="<?php echo '/home/vote/id/'.$net[$i]->id.'/score/'.$net[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $net[$i]->vote?></span> </a>
                 <a href="<?php echo $net[$i]->url?>"  target="_blank"  ><span class="song"><?php echo $net[$i]->song?></span><br><span class="singer"><?php echo $net[$i]->singer?></span><span class="from">(<?php echo $net[$i]->source?>)</a>
 
         </li>
@@ -44,6 +44,24 @@
 
 </div>
 
+<div class="recommend">
+	<div class="add">
+		<button type="button" class="btn btn-primary" onclick="window.location='/home/recommend'" >网友推荐</button>
+	</div>
+
+	<ul class="list list_end list4"style="list-style-type:none">
+	<?php for($i = 0; $i < count($recommend); $i ++) { ?>
+
+        	<li>
+                	<a href="<?php echo '/home/vote_recommend/id/'.$recommend[$i]->id.'/score/'.$recommend[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $recommend[$i]->vote?></span> </a>
+	                <a href="<?php echo $recommend[$i]->url?>"  target="_blank"  ><span class="song"><?php echo $recommend[$i]->song?></span><br><span class="singer"><?php echo $recommend[$i]->singer?></span></a>
+
+        	</li>
+
+	<?php } ?>
+</ul>
+
+</div>
 
 <div class="slide-out-div" style="height:552px; background-color: rgb(66, 139, 202); z-index:9999; " id="cryptsychat">
 	<a class="handle" href="#">&nbsp;</a>
