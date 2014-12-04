@@ -14,7 +14,8 @@
 
 	<script src="/3rd/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
 
-
+<title>
+	funmusic - listen easy</title>	
 
 </head>
 

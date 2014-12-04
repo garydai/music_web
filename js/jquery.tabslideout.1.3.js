@@ -143,7 +143,6 @@
          }
 	 clearInterval(int_id);
 
-
       };
 
       var slideOut = function() {
@@ -158,6 +157,8 @@
             obj.animate({bottom:'-3px'},  settings.speed).addClass('open');
          }
 	int_id = setInterval(loadMsg, 2000);
+
+	document.cookie = "cookie_id=0;";
 
       };
 

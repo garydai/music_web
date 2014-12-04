@@ -201,27 +201,29 @@ class HomeController extends Controller
 			$msg=$_POST['msg'];
 		}
 
-
+		$html = '';
 		
 		if($msg != '')
 		{
 
 			$m = new Chat;
 			$m->ip = Yii::app()->request->userHostAddress;
-			$m->user = Yii::app()->admin->name;
+
+                        if(Yii::app()->admin->isGuest)
+                        {
+				$m->user = '匿名';
+
+			}
+			else
+			{
+				$m->user = Yii::app()->admin->name;
+			}
 			$m->date =  date('Y-m-d H:i:s');
 			$m->content = $msg;
 			$m->save();
 			
-			$criteria = new CDbCriteria;
-			$criteria->order = "date asc";	
-			$chat = Chat::model()->findAll($criteria);
+			$html = $this->actionLoadMsg();
 			
-			$html = '';
-			foreach($chat as $item)	
-			{
-				$html.=$this->get_item($item->date, 'xxx', $item->content);
-			}
 		}
 		echo $html;
 	}
@@ -234,16 +236,27 @@ class HomeController extends Controller
         public function actionLoadMsg()
         {
 
+
+		$id = 0;
+		if( isset(Yii::app()->request->cookies['cookie_id']))
+		{
+			$id =  Yii::app()->request->cookies['cookie_id']->value;	
+		}	
                 $criteria = new CDbCriteria;
+		$criteria->condition = "id > $id";
                 $criteria->order = "date asc";
                 $chat = Chat::model()->findAll($criteria);
 
                 $html = '';
                 foreach($chat as $item)
                 {
-			$html.=$this->get_item($item->date, 'xxx', $item->content);
+			$id = $item->id;	
+			$html.=$this->get_item($item->date, $item->user, $item->content);
 
 	        }
+
+
+		Yii::app()->request->cookies['cookie_id'] = new CHttpCookie('cookie_id', $id);
                 echo $html;
         }
 

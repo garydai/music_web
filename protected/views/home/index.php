@@ -68,7 +68,7 @@
 
 	<div id="chat">
 	        <div id="menu">
-        	        <p class="welcome">just talk <b></b></p>
+        	        <p class="welcome"><b></b></p>
                 	<div style="clear:both"></div>
 	        </div>
 
@@ -91,7 +91,7 @@
 	                url: "/home/submit",
 			data:{'msg':clientmsg},
         	        success: function(html) {
-			$("#chatbox").html(html);
+			$("#chatbox").append(html);
         	        }
 	            });
 
@@ -108,7 +108,7 @@
 			url: "/home/loadMsg",
 			success: function(html)
 				{		
-				$("#chatbox").html(html); //Insert chat log into the #chatbox div
+				$("#chatbox").append(html); //Insert chat log into the #chatbox div
 				$("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;	
 				}				
 		});
