@@ -9089,3 +9089,255 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2014/12/04 22:52:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "r/www/cache/static/home/img/logos/nuomi_ade5465d.png".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('r/www/cache/sta...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/r/www/cache/static/home/img/logos/nuomi_ade5465d.png
+---
+2014/12/05 09:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+HTTP_REFERER=http://121.199.53.139/
+---
+2014/12/05 10:53:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 15:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 15:50:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 16:00:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "HNAP1".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('HNAP1')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/HNAP1/
+---
+2014/12/05 16:59:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment/index/id/141".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment/index/i...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment/index/id/141
+HTTP_REFERER=http://121.199.53.139:8080/
+---
+2014/12/05 17:00:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/id/141
+---
+2014/12/05 17:11:32 [error] [php] Undefined variable: id (/home/admin/nginx/html/music/demos/music_web/protected/controllers/CommentController.php:80)
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CController.php(286): CommentController->runAction()
+#1 /home/admin/nginx/html/music/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#2 /home/admin/nginx/html/music/framework/web/CWebApplication.php(282): CommentController->run()
+#3 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/admin/nginx/html/music/demos/music_web/index.php(11): CWebApplication->run()
+REQUEST_URI=/comment/index/id/141
+2014/12/05 17:13:23 [error] [php] Undefined variable: id (/home/admin/nginx/html/music/demos/music_web/protected/controllers/CommentController.php:80)
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CController.php(286): CommentController->runAction()
+#1 /home/admin/nginx/html/music/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#2 /home/admin/nginx/html/music/framework/web/CWebApplication.php(282): CommentController->run()
+#3 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/admin/nginx/html/music/demos/music_web/index.php(11): CWebApplication->run()
+REQUEST_URI=/comment/index/id/141
+2014/12/05 17:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:15:18 [error] [php] Undefined variable: net (/home/admin/nginx/html/music/demos/music_web/protected/views/comment/index.php:5)
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CController.php(869): CommentController->renderFile()
+#1 /home/admin/nginx/html/music/framework/web/CController.php(782): CommentController->renderPartial()
+#2 /home/admin/nginx/html/music/demos/music_web/protected/controllers/CommentController.php(81): CommentController->render()
+#3 /home/admin/nginx/html/music/framework/web/actions/CInlineAction.php(49): CommentController->actionIndex()
+#4 /home/admin/nginx/html/music/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/admin/nginx/html/music/framework/web/CController.php(286): CommentController->runAction()
+#6 /home/admin/nginx/html/music/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#7 /home/admin/nginx/html/music/framework/web/CWebApplication.php(282): CommentController->run()
+#8 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/admin/nginx/html/music/demos/music_web/index.php(11): CWebApplication->run()
+REQUEST_URI=/comment/index/nid/141
+2014/12/05 17:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:19:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:21:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:39:22 [error] [php] Undefined variable: id (/home/admin/nginx/html/music/demos/music_web/protected/controllers/CommentController.php:107)
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CController.php(286): CommentController->runAction()
+#1 /home/admin/nginx/html/music/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#2 /home/admin/nginx/html/music/framework/web/CWebApplication.php(282): CommentController->run()
+#3 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/admin/nginx/html/music/demos/music_web/index.php(11): CWebApplication->run()
+REQUEST_URI=/comment/add_comment
+2014/12/05 17:40:25 [error] [php] Undefined variable: id (/home/admin/nginx/html/music/demos/music_web/protected/controllers/CommentController.php:107)
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CController.php(286): CommentController->runAction()
+#1 /home/admin/nginx/html/music/framework/web/CController.php(265): CommentController->runActionWithFilters()
+#2 /home/admin/nginx/html/music/framework/web/CWebApplication.php(282): CommentController->run()
+#3 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/admin/nginx/html/music/demos/music_web/index.php(11): CWebApplication->run()
+REQUEST_URI=/comment/add_comment
+2014/12/05 17:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:40:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:41:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:41:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:49:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---
+2014/12/05 17:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
+---

@@ -63,6 +63,7 @@
 
 .list
 {
+	position:relative;
 	width:350px;
 	float:left;
 }
@@ -99,7 +100,7 @@
 {
 
 	padding-left: 42px;
-	font-size: 3px;
+	font-size: 10px;
 	color:#828282;
 }
 
@@ -116,6 +117,17 @@
 {
 	color:	#828282;
 }
+
+
+.comment
+{
+        font-size: 12px;
+        color:#828282;
+
+}
+
+
+
 
 /*
  * chat box
@@ -198,7 +210,6 @@
 	font-size: 15px;
 
 }
-
 
 
 

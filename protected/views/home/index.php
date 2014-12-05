@@ -8,7 +8,8 @@
 
 	<li>
 		<a href="<?php echo '/home/vote/id/'.$qq[$i]->id.'/score/'.$qq[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $qq[$i]->vote?></span> </a>
-		<a href="<?php echo $qq[$i]->url?>" target="_blank" ><span class="song"><?php echo $qq[$i]->song?></span><br><span class="singer"><?php echo $qq[$i]->singer?></span><span class="from">(<?php echo $qq[$i]->source?>)</a>
+		<a href="<?php echo $qq[$i]->url?>" target="_blank" ><span class="song"><?php echo $qq[$i]->song?></span></a><br><span class="singer"><?php echo $qq[$i]->singer?></span><span class="from">(<?php echo $qq[$i]->source?>)</span>&nbsp;|&nbsp;<a class="comment"  target="_blank" href="<?php echo '/comment/index/nid/'.$qq[$i]->id?>"><?php echo $qq[$i]->comment ?> comments</a>
+
 
 	</li>
 
@@ -21,7 +22,8 @@
 
         <li>
                 <a href="<?php echo '/home/vote/id/'.$xiami[$i]->id.'/score/'.$xiami[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $xiami[$i]->vote?></span> </a>
-                <a href="<?php echo $xiami[$i]->url?>"  target="_blank" ><span class="song"><?php echo $xiami[$i]->song?></span><br><span class="singer"><?php echo $xiami[$i]->singer?></span><span class="from">(<?php echo $xiami[$i]->source?>)</a>
+                <a href="<?php echo $xiami[$i]->url?>"  target="_blank" ><span class="song"><?php echo $xiami[$i]->song?></span></a><br><span class="singer"><?php echo $xiami[$i]->singer?></span><span class="from">(<?php echo $xiami[$i]->source?>)</span>&nbsp;|&nbsp;<a class="comment"  target="_blank" href="<?php echo '/comment/index/nid/'.$xiami[$i]->id?>" ><?php echo $xiami[$i]->comment ?> comments</a>
+
 
         </li>
 
@@ -34,7 +36,8 @@
 
         <li>
                 <a href="<?php echo '/home/vote/id/'.$net[$i]->id.'/score/'.$net[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $net[$i]->vote?></span> </a>
-                <a href="<?php echo $net[$i]->url?>"  target="_blank"  ><span class="song"><?php echo $net[$i]->song?></span><br><span class="singer"><?php echo $net[$i]->singer?></span><span class="from">(<?php echo $net[$i]->source?>)</a>
+                <a href="<?php echo $net[$i]->url?>"  target="_blank"  ><span class="song"><?php echo $net[$i]->song?></span></a><br><span class="singer"><?php echo $net[$i]->singer?></span><span class="from">(<?php echo $net[$i]->source?>)</span>&nbsp;|&nbsp;<a class="comment" target="_blank" href="<?php echo '/comment/index/nid/'.$net[$i]->id?>"><?php echo $net[$i]->comment ?> comments</a>
+
 
         </li>
 
@@ -54,7 +57,7 @@
 
         	<li>
                 	<a href="<?php echo '/home/vote_recommend/id/'.$recommend[$i]->id.'/score/'.$recommend[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $recommend[$i]->vote?></span> </a>
-	                <a href="<?php echo $recommend[$i]->url?>"  target="_blank"  ><span class="song"><?php echo $recommend[$i]->song?></span><br><span class="singer"><?php echo $recommend[$i]->singer?></span></a>
+	                <a href="<?php echo $recommend[$i]->url?>"  target="_blank"  ><span class="song"><?php echo $recommend[$i]->song?></span></a><br><span class="singer"><?php echo $recommend[$i]->singer?></span>&nbsp;|&nbsp;<a class="comment" target="_blank" href="<?php echo '/comment/index/rid/'.$recommend[$i]->id?>"><?php echo $recommend[$i]->comment ?> comments</a>
 
         	</li>
 
