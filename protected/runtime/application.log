@@ -9341,3 +9341,1117 @@ Stack trace:
 REQUEST_URI=/comment.css
 HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/141
 ---
+2014/12/05 21:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 21:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 21:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 21:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 21:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 21:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 21:33:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 21:33:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/05 22:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/05 23:13:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/05 23:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 01:03:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 05:16:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 07:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 08:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 09:01:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+HTTP_REFERER=http://121.199.53.139/
+---
+2014/12/06 09:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 19:05:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "web-console/ServerInfo.jsp".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('web-console/Ser...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/web-console/ServerInfo.jsp
+---
+2014/12/06 19:15:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 19:41:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 22:46:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 22:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 23:07:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/06 23:45:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 01:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 01:15:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 04:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 05:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 05:49:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 07:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/07 07:31:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/07 07:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/07 07:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/07 07:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/07 07:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/07 07:38:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/07 07:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/07 08:59:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+HTTP_REFERER=http://121.199.53.139/
+---
+2014/12/07 10:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 12:03:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 12:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 12:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 12:34:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 13:24:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 15:54:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 16:29:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 16:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 17:03:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 17:10:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 17:33:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 18:28:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proxy.txt".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('proxy.txt')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/proxy.txt
+---
+2014/12/07 20:57:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 21:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/07 21:41:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 00:15:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 01:58:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 02:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 02:38:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 02:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 02:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 03:00:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 06:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 07:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 07:45:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "robots.txt".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2014/12/08 07:45:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 08:33:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 08:33:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 08:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "manager/html".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('manager/html')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/manager/html
+HTTP_REFERER=http://121.199.53.139/
+---
+2014/12/08 09:39:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 09:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 10:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 10:31:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 12:29:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 13:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/08 14:06:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 15:33:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 16:24:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 16:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 17:29:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 18:04:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 19:11:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 19:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 21:18:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 22:37:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/08 23:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "proxychecker/check.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('proxychecker/ch...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/proxychecker/check.cgi?action=getinfo
+HTTP_REFERER=http://www.google.com/search?hl=ru&q=free+proxy+checker&sourceid=navclient-ff&ie=UTF-8
+---
+2014/12/08 23:07:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 01:47:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 01:50:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 01:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 02:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 03:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 03:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 04:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 04:33:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 04:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 04:47:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 04:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 04:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 04:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 04:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 04:54:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 04:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 06:00:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 06:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 06:51:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 07:02:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 07:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 07:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 08:44:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 08:59:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 09:08:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 09:29:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 09:31:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 10:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 10:22:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "8080".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('8080')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/8080
+---
+2014/12/09 10:27:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 10:50:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 11:08:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 11:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 12:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 13:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 16:28:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 16:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/162
+---
+2014/12/09 16:28:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 16:28:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 16:28:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 16:41:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 16:41:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 16:52:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 16:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 16:54:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 16:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 17:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/authLogin.cgi".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('cgi-bin/authLog...')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/authLogin.cgi
+---
+2014/12/09 17:21:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 17:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 17:21:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---
+2014/12/09 17:21:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment.css".' in /home/admin/nginx/html/music/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/admin/nginx/html/music/framework/web/CWebApplication.php(141): CWebApplication->runController('comment.css')
+#1 /home/admin/nginx/html/music/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/admin/nginx/html/music/demos/music_web/index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/comment.css
+HTTP_REFERER=http://121.199.53.139:8080/comment/index/nid/154
+---

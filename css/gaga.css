@@ -1,3 +1,13 @@
+
+
+
+
+
+body {width: 85%;margin: 0 auto;background-color: #f0f0f0;font-family: "Microsoft Yahei", Verdana;}
+
+
+
+
 /*
  * head
  */
@@ -9,8 +19,8 @@
 
 .logout,.login
 {
-	 position:absolute;
-	right:5px;
+	position:relative;
+	left:95%;
 	top:30px;
 	color:#34495E; 
 	font-size:15px;
@@ -20,6 +30,8 @@
  */
 .footer
 {
+	position:relative;
+	top:10px;
 	background: #FF5809;
 	height:100px;
 	clear:left;
@@ -210,14 +222,5 @@
 	font-size: 15px;
 
 }
-
-
-
-
-
-
-
-
-
 
 
