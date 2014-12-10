@@ -114,208 +114,37 @@ class CommentController extends Controller
 			$comment->ip = $ip;
                         $comment->date =  date('Y-m-d H:i:s');
 			if($_POST['type'] == 'new')
+			{
 	                        $comment->new = $_POST['id'];
-			else $comment->recommend = $_POST['id'];
+			}
+			else 
+			{
+				$comment->recommend = $_POST['id'];
+			}
 			$comment->content = $content;
                         $comment->save();
-			$this->redirect(Yii::app()->request->urlReferrer);
-
-		}
-		
-	}
-
-	public function actionVote()
-	{
-
-		echo Yii::app()->admin->isGuest;
-	        if(Yii::app()->admin->isGuest){
-        		   $this->redirect(Yii::app()->admin->loginUrl);
-	        }
-		else
-		{
-
-                        $ip = Yii::app()->request->userHostAddress;
-                        $user = Yii::app()->admin->name;
-
-			$id = $_GET['id'];
-
-
-			$criteria = new CDbCriteria;
-			$criteria->condition = "(ip='$ip' or user='$user') and new =$id ";
-			$count = Record::model()->count($criteria);
-			if($count == 0)
-			{
-				
-			
-
-				$score = $_GET['score'];
-				$score += 1;
-				Music::model()->updateByPk($id, array('vote'=>$score));
-
-
-	                        $record = new Record;
-        	                $record->ip = $ip;
-                	        $record->user = $user;
-                        	$record->date =  date('Y-m-d H:i:s');
-	                        $record->new = $id;
-        	                $record->save();
-			}
-
-
-			$this->redirect(Yii::app()->request->urlReferrer);
-		}
-	}
-
-
-        public function actionVote_recommend()
-        {
-
-                echo Yii::app()->admin->isGuest;
-                if(Yii::app()->admin->isGuest){
-                           $this->redirect(Yii::app()->admin->loginUrl);
-                }
-                else
-                {
-                        $ip = Yii::app()->request->userHostAddress;
-                        $user = Yii::app()->admin->name;
-			
-                        $id = $_GET['id'];
-
-
-                        $criteria = new CDbCriteria;
-                        $criteria->condition = "(ip='$ip' or user='$user') and recommend =$id ";
-                        $count = Record::model()->count($criteria);
-                        if($count == 0)
+			#echo 11;
+                        #如果删除评论，music数据库的comment也要减1
+                        if($_POST['type'] == 'new')
                         {
 
-
-
-	                        $score = $_GET['score'];
-        	                $score += 1;
-                	        Recommend::model()->updateByPk($id, array('vote'=>$score));
-
-				$record = new Record;
-				$record->ip = $ip;
-				$record->user = $user;
-				$record->date =  date('Y-m-d H:i:s');
-				$record->recommend = $id;
-				$record->save();
-			}
-                        $this->redirect(Yii::app()->request->urlReferrer);
-                }
-        }
-
-
-	
-	public function actionSubmit()
-	{
-		$msg = '';
-		if(isset($_POST['msg']))
-		{
-			$msg=$_POST['msg'];
-		}
-
-		$html = '';
-		
-		if($msg != '')
-		{
-
-			$m = new Chat;
-			$m->ip = Yii::app()->request->userHostAddress;
-
-                        if(Yii::app()->admin->isGuest)
-                        {
-				$m->user = '匿名';
-
+                        	$connection=Yii::app()->db;
+	                        $sql = "update music set comment=comment+1 where id = ".$_POST['id'];
+        	                $command=$connection->createCommand($sql);
+				$command->execute();
 			}
 			else
 			{
-				$m->user = Yii::app()->admin->name;
-			}
-			$m->date =  date('Y-m-d H:i:s');
-			$m->content = $msg;
-			$m->save();
-			
-			$html = $this->actionLoadMsg();
-			
-		}
-		echo $html;
-	}
-
-	public function get_item($date, $name, $content)
-	{
-		return "<div class='item'><span class='item_date'>$date</span><span class='item_ip'> $name </span><div class='item_content'>$content</div></div>";
-
-	}	
-        public function actionLoadMsg()
-        {
-
-
-		$id = 0;
-		if( isset(Yii::app()->request->cookies['cookie_id']))
-		{
-			$id =  Yii::app()->request->cookies['cookie_id']->value;	
-		}	
-                $criteria = new CDbCriteria;
-		$criteria->condition = "id > $id";
-                $criteria->order = "date asc";
-                $chat = Chat::model()->findAll($criteria);
-
-                $html = '';
-                foreach($chat as $item)
-                {
-			$id = $item->id;	
-			$html.=$this->get_item($item->date, $item->user, $item->content);
-
-	        }
-
-
-		Yii::app()->request->cookies['cookie_id'] = new CHttpCookie('cookie_id', $id);
-                echo $html;
-        }
-
-	public function actionRecommend()
-	{
+                                $connection=Yii::app()->db;
+                                $sql = "update recommend set comment=comment+1 where id = ".$_POST['id'];
+                                $command=$connection->createCommand($sql);
+				$command->execute();
 	
-                if(Yii::app()->admin->isGuest)
-                {
-                           $this->redirect(Yii::app()->admin->loginUrl);
-                }
-                else
-                {
-	
-			$this->render('recommend');	
-		}
-	}
-
-        public function actionSubmit_music()
-        {
-
-
-			$song = $_POST['song'];
-			$singer = $_POST['singer'];
-			$url = $_POST['url'];
-			if($song != '' && $singer != '' && $url != '')
-			{
-
-
-	                	$r = new Recommend;
-	                        $r->ip = Yii::app()->request->userHostAddress;
-        	                $r->user = Yii::app()->admin->name;
-                	        $r->date =  $date = date('Y-m-d H:i:s');
-
-	        	        $r->song = $song;
-		                $r->singer = $singer;
-        		        $r->url = $url;
-	                	$r->save();
-
-
 			}
-			$this->redirect("/");
-        }
+			$this->redirect(Yii::app()->request->urlReferrer);
 
-
-
-
+		}
+		
+	}
 
 }
