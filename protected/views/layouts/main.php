@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
 
+	<link rel="shortcut icon" href="/images/favicon.ico"></link>
 
 	<script type="text/javascript" src=" /js/jquery-2.1.1.min.js"></script>
 
@@ -14,6 +15,8 @@
 
 	<script src="/3rd/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
 
+	<Meta name="Keywords" Content="最新音乐、热门音乐">
+	<Meta name="Description" Content="显示当前最新音乐">
 <title>
 	funmusic - listen easy</title>	
 
