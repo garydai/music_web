@@ -14,10 +14,6 @@
 	</li>
 
 <?php } ?>
-</ul>
-
-
-<ul class="list list_end list2"style="list-style-type:none">
 <?php for($i = 0; $i < count($xiami); $i ++) { ?>
 
         <li>
@@ -28,10 +24,6 @@
         </li>
 
 <?php } ?>
-</ul>
-
-
-<ul class="list list_end list3"style="list-style-type:none">
 <?php for($i = 0; $i < count($net); $i ++) { ?>
 
         <li>
