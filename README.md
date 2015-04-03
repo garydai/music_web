@@ -12,6 +12,12 @@
 
 4.在线交流
 
+5.网友的评论
+
+to do:
+
+评论分类
+
 ###demo
 ![](https://github.com/garydai/music_web/raw/master/music_web1.png)
 
