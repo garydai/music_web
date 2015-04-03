@@ -8,9 +8,21 @@
 
 	<li>
 		<a href="<?php echo '/home/vote/id/'.$qq[$i]->id.'/score/'.$qq[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $qq[$i]->vote?></span> </a>
-		<a href="<?php echo $qq[$i]->url?>" target="_blank" ><span class="song"><?php echo $qq[$i]->song?></span></a><br><span class="singer"><?php echo $qq[$i]->singer?></span><span class="from">(<?php echo $qq[$i]->source?>)</span>&nbsp;|&nbsp;<a class="comment"  target="_blank" href="<?php echo '/comment/index/nid/'.$qq[$i]->id?>"><?php echo $qq[$i]->comment ?> comments</a>
 
 
+		<div class="info">
+			<a href="<?php echo $qq[$i]->url?>" target="_blank" >
+
+				<img src='<?php echo '/images/cover/'.$qq[$i]->image ?> 'height="100" width="100">
+
+				<br>
+				<span class="song"><?php echo $qq[$i]->song?></span></a>
+
+
+
+				<br><span class="singer"><?php echo $qq[$i]->singer?></span><span class="from"></span>&nbsp;|&nbsp;<a class="comment"  target="_blank" href="<?php echo '/comment/index/nid/'.$qq[$i]->id?>"><?php echo $qq[$i]->comment ?> comments</a>
+
+		</div>
 	</li>
 
 <?php } ?>
@@ -18,8 +30,40 @@
 
         <li>
                 <a href="<?php echo '/home/vote/id/'.$xiami[$i]->id.'/score/'.$xiami[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $xiami[$i]->vote?></span> </a>
-                <a href="<?php echo $xiami[$i]->url?>"  target="_blank" ><span class="song"><?php echo $xiami[$i]->song?></span></a><br><span class="singer"><?php echo $xiami[$i]->singer?></span><span class="from">(<?php echo $xiami[$i]->source?>)</span>&nbsp;|&nbsp;<a class="comment"  target="_blank" href="<?php echo '/comment/index/nid/'.$xiami[$i]->id?>" ><?php echo $xiami[$i]->comment ?> comments</a>
 
+
+		<div class="info">
+
+                <a href="<?php echo $xiami[$i]->url?>"  target="_blank" >
+		
+			<img src='<?php echo '/images/cover/'.$xiami[$i]->image ?> ' height="100" width="100" >
+
+			<br>
+			<span class="song"><?php echo $xiami[$i]->song?></span></a>
+			
+
+	
+			<br><span class="singer"><?php echo $xiami[$i]->singer?></span><span class="from"></span>&nbsp;|&nbsp;<a class="comment"  target="_blank" href="<?php echo '/comment/index/nid/'.$xiami[$i]->id?>" ><?php echo $xiami[$i]->comment ?> comments</a>
+			<br><br>
+                <span class="other_comment">
+
+                        <?php for($j = 0; $j < count($other_comment); $j ++)
+                                {
+
+                                        if($other_comment[$j]->album_id == $xiami[$i]->id)
+                                        {
+                                                echo $other_comment[$j]->comment;
+
+                                                break;
+                                        }
+                                }
+
+
+                        ?>
+
+
+                </span>
+		<div>
 
         </li>
 
@@ -28,8 +72,47 @@
 
         <li>
                 <a href="<?php echo '/home/vote/id/'.$net[$i]->id.'/score/'.$net[$i]->vote?>"> <i class="arrow"></i><span class="score"><?php echo $net[$i]->vote?></span> </a>
-                <a href="<?php echo $net[$i]->url?>"  target="_blank"  ><span class="song"><?php echo $net[$i]->song?></span></a><br><span class="singer"><?php echo $net[$i]->singer?></span><span class="from">(<?php echo $net[$i]->source?>)</span>&nbsp;|&nbsp;<a class="comment" target="_blank" href="<?php echo '/comment/index/nid/'.$net[$i]->id?>"><?php echo $net[$i]->comment ?> comments</a>
 
+		<div class='info'>
+                <a href="<?php echo $net[$i]->url?>"  target="_blank"  >
+
+			<img src='<?php echo '/images/cover/'.$net[$i]->image ?> ' height="100" width="100" >
+			<br>
+			<span class="song"><?php echo $net[$i]->song?></span>
+	
+
+		</a>
+
+
+		<br><span class="singer"><?php echo $net[$i]->singer?></span><span class="from"></span>&nbsp;|&nbsp;<a class="comment" target="_blank" href="<?php echo '/comment/index/nid/'.$net[$i]->id?>"><?php echo $net[$i]->comment ?> comments</a>
+
+
+
+
+                       <br><br>
+        	        <span class="other_comment">
+	
+                	        <?php for($j = 0; $j < count($other_comment); $j ++)
+                        	        {
+
+                                	        if($other_comment[$j]->album_id == $net[$i]->id)
+                                        	{
+	                                                echo $other_comment[$j]->comment;
+
+        	                                        break;
+                	                        }
+                        	        }
+
+
+	                        ?>
+
+
+        	        </span>
+
+
+
+
+		</div>
 
         </li>
 

@@ -85,6 +85,11 @@ class HomeController extends Controller
                 $xiami = Music::model()->findAll($criteria);
 
 
+		$other_comment = Other_comment::model()->findAll();
+		
+	
+			
+
                 $criteria = new CDbCriteria;
                 $criteria->condition = 'source ="163" and date >= "'.$date.'" and date <= "'.$date1.'"';
 
@@ -101,7 +106,7 @@ class HomeController extends Controller
 		$r = Recommend::model()->findAll($criteria);	
 
 	
-                $this->render('index', array('qq'=>$qq, 'xiami'=>$xiami, 'net'=>$net, 'recommend'=>$r));
+                $this->render('index', array('qq'=>$qq, 'xiami'=>$xiami, 'net'=>$net, 'recommend'=>$r, 'other_comment'=>$other_comment));
 
 
 
