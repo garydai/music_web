@@ -13,7 +13,7 @@
 		<div class="info">
 			<a href="<?php echo $qq[$i]->url?>" target="_blank" >
 
-				<img src='<?php echo '/images/cover/'.$qq[$i]->image ?> 'height="100" width="100">
+				<img class="lazy" src="/images/arrow.png" data-original='<?php echo '/images/cover/'.$qq[$i]->image ?> 'height="100" width="100">
 
 				<br>
 				<span class="song"><?php echo $qq[$i]->song?></span></a>
@@ -36,7 +36,7 @@
 
                 <a href="<?php echo $xiami[$i]->url?>"  target="_blank" >
 		
-			<img src='<?php echo '/images/cover/'.$xiami[$i]->image ?> ' height="100" width="100" >
+			<img class="lazy" src="/images/arrow.png" data-original='<?php echo '/images/cover/'.$xiami[$i]->image ?> ' height="100" width="100" >
 
 			<br>
 			<span class="song"><?php echo $xiami[$i]->song?></span></a>
@@ -76,7 +76,7 @@
 		<div class='info'>
                 <a href="<?php echo $net[$i]->url?>"  target="_blank"  >
 
-			<img src='<?php echo '/images/cover/'.$net[$i]->image ?> ' height="100" width="100" >
+			<img class="lazy" src="/images/arrow.png" data-original='<?php echo '/images/cover/'.$net[$i]->image ?> ' height="100" width="100" >
 			<br>
 			<span class="song"><?php echo $net[$i]->song?></span>
 	
@@ -213,6 +213,13 @@ $(function() {
 
 
 	
+});
+
+
+$(function()
+{
+   $('img.lazy').lazyload();
+
 });
 
 

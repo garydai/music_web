@@ -66,6 +66,7 @@ class HomeController extends Controller
         public function actionIndex()
         {
 
+		echo time();
 		$date = date('Y-m-d');
 		$date1 = $date.' 23:59:59';
 		$this->g_guest = Yii::app()->admin->isGuest;
@@ -79,15 +80,17 @@ class HomeController extends Controller
                 $criteria = new CDbCriteria;
                 $criteria->condition = 'source ="xiami" and date >= "'.$date.'" and date <= "'.$date1.'"';
 
-
                 $criteria->order = 'date desc';
 
                 $xiami = Music::model()->findAll($criteria);
 
 
+
+
+			
 		$other_comment = Other_comment::model()->findAll();
 		
-	
+			
 			
 
                 $criteria = new CDbCriteria;
@@ -105,7 +108,7 @@ class HomeController extends Controller
 		$criteria->order = 'date desc';
 		$r = Recommend::model()->findAll($criteria);	
 
-	
+		echo time();	
                 $this->render('index', array('qq'=>$qq, 'xiami'=>$xiami, 'net'=>$net, 'recommend'=>$r, 'other_comment'=>$other_comment));
 
 
