@@ -66,7 +66,6 @@ class HomeController extends Controller
         public function actionIndex()
         {
 
-		echo time();
 		$date = date('Y-m-d');
 		$date1 = $date.' 23:59:59';
 		$this->g_guest = Yii::app()->admin->isGuest;
@@ -83,12 +82,20 @@ class HomeController extends Controller
                 $criteria->order = 'date desc';
 
                 $xiami = Music::model()->findAll($criteria);
-
-
-
-
-			
-		$other_comment = Other_comment::model()->findAll();
+		$other_comment = array();
+		foreach($xiami as $t)
+		{
+			$criteria = new CDbCriteria;
+			$criteria->condition = "album_id = $t->id";
+			$criteria->limit = 1;
+			$result = Other_comment::model()->findAll($criteria);
+			if($result)
+			{
+				$other_comment[$t->id]=$result[0]->comment;
+			}
+		
+		}
+	//	$other_comment = Other_comment::model()->findAll();
 		
 			
 			
@@ -100,20 +107,29 @@ class HomeController extends Controller
                 $criteria->order = 'date desc';
 
                 $net = Music::model()->findAll($criteria);
+                foreach($net as $t)
+                {
+                        $criteria = new CDbCriteria;
+                        $criteria->condition = "album_id = $t->id";
+                        $criteria->limit = 1;
+                        $result = Other_comment::model()->findAll($criteria);
+                        if($result)
+                        {
+                               $other_comment[$t->id]=$result[0]->comment;
+                        }
+                }
+		
+		
 
-
+			
+			
                 $criteria = new CDbCriteria;
 		$criteria->limit = 100;
 		$criteria->condition = "judge=1";
 		$criteria->order = 'date desc';
 		$r = Recommend::model()->findAll($criteria);	
 
-		echo time();	
                 $this->render('index', array('qq'=>$qq, 'xiami'=>$xiami, 'net'=>$net, 'recommend'=>$r, 'other_comment'=>$other_comment));
-
-
-
-
 	
         }
 

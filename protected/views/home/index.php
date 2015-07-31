@@ -46,8 +46,8 @@
 			<br><span class="singer"><?php echo $xiami[$i]->singer?></span><span class="from"></span>&nbsp;|&nbsp;<a class="comment"  target="_blank" href="<?php echo '/comment/index/nid/'.$xiami[$i]->id?>" ><?php echo $xiami[$i]->comment ?> comments</a>
 			<br><br>
                 <span class="other_comment">
-
-                        <?php for($j = 0; $j < count($other_comment); $j ++)
+			<?php echo $other_comment[$net[$i]->id] ?>
+                        <!--?php for($j = 0; $j < count($other_comment); $j ++)
                                 {
 
                                         if($other_comment[$j]->album_id == $xiami[$i]->id)
@@ -59,7 +59,7 @@
                                 }
 
 
-                        ?>
+                        ?-->
 
 
                 </span>
@@ -91,8 +91,8 @@
 
                        <br><br>
         	        <span class="other_comment">
-	
-                	        <?php for($j = 0; $j < count($other_comment); $j ++)
+				<?php echo $other_comment[$net[$i]->id] ?>	
+                	        <!--?php for($j = 0; $j < count($other_comment); $j ++)
                         	        {
 
                                 	        if($other_comment[$j]->album_id == $net[$i]->id)
@@ -104,7 +104,7 @@
                         	        }
 
 
-	                        ?>
+	                        ?-->
 
 
         	        </span>
